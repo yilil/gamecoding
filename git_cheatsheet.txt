@@ -1,0 +1,8 @@
+git add . 				adds all changes in current directory to stage workplace before commiting
+git commit -m "init"			commits all added changes locally with a description/message "init"
+git push				push changes to remote server
+git pull				retrieves lastest updates from remote server to local files
+git branch				lists all working branches, the branch name with * is the current working branch
+git branch foo/git checkout -b foo	creates a branch call foo
+git checkout foo			switchs to the foo directory
+git merge foo			merges foo with the main/master branch
