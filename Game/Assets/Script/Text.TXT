@@ -1,0 +1,7 @@
+A
+hello， This is the test of dialogsystem.
+Welcome to the village.
+B
+what should I do now?
+A
+Go to the adventurer's home. He has some missions for you.
