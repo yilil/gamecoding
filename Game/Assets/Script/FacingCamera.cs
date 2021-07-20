@@ -23,7 +23,11 @@ public class FacingCamera : MonoBehaviour
         {
             if(childs[i].gameObject.layer == 5)
             {
-                childs[i].position = player.position + new Vector3(0, 6.0f, 0);
+                if(childs[i].gameObject.tag == "Dialog"){
+                    childs[i].position = player.position + new Vector3(0, 6.0f, 0);
+                }else if(childs[i].gameObject.tag == "Status"){
+                    childs[i].position = player.position + new Vector3(-26f, 16f, 0);
+                }
             }
             childs[i].rotation = Camera.main.transform.rotation;
         }
