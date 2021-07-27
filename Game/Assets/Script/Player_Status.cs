@@ -9,6 +9,7 @@ public class Player_Status : MonoBehaviour
 	public int currentHealth;
 
 	public HealthBar healthBar;
+	// public HealthBar energyBar;
 
     // Start is called before the first frame update
     void Start()
@@ -31,5 +32,7 @@ public class Player_Status : MonoBehaviour
 		currentHealth -= damage;
 
 		healthBar.SetHealth(currentHealth);
+
+		// energyBar.SetHealth(currentHealth);
 	}
 }
